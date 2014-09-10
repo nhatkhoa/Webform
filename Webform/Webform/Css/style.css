@@ -1,0 +1,14 @@
+﻿body {
+    width: 80%;
+    margin: 2% auto;
+}
+.container {
+    position: relative;
+    padding-bottom: 30%;
+}
+.element {
+    background-color: aliceblue;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

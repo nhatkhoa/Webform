@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Webform
+{
+    public partial class Defautl : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            selectName.Items.AddRange(new []
+            {
+                new ListItem("Hoàng Khoa"),
+                new ListItem("Nhật Khoa"),
+                new ListItem("Xiziu"), 
+
+            });
+        }
+    }
+}
